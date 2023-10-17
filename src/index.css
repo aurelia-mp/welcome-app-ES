@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Estilos de tipografia */
+.upper{
+  text-transform: uppercase;
+}
+
+/* Estilos de Home */
+.computadora{
+  text-align: center;
+}
+
+.computadora img{
+  width: 30%
+}
+
+.computadora p{
+  margin-top: 3rem
+}
+.imagenHome{
+  width: 100%;
+}
+
+.prehome{
+  position: fixed;
+  /* Definir left y right permite que quede centrado*/
+  left: 10%;
+  right: 10%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.prehome h1{
+  text-align: center;
+}
+
+.prehome div{
+  color: white;
+  text-align: right;
+  /* border-bottom: 1px solid black; */
+}
+
+.lineaCentro {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+/* Estilos de Footer */
+.footer{
+  left: 0;
+  bottom: 0;
+  height: 2.7rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:white;
+  color: black;
+  text-align: center;
+  position: fixed;
+}
+
+/* Permite que no desaparezca el contenido detrás del footer */
+.containerMain {
+  margin-bottom: 6rem;
+}
+
+.iconFooter{
+  height: 40px
+}
+
+
+/* USEFULL INFORMATION */
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.in img {
+  width: 3rem;
+  padding-right: 3rem;
+  padding-left: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.palabraIn {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.tresPM {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+
+}
+
+.fraseIt {
+  display: flex;
+  justify-items: center;
+  margin: 1.5rem;
+}
+
+.bloquesInternos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.bloquesInternos img {
+  width: 5rem;
+  padding-right: 3rem;
+}
+
+.contenedorGeneral {
+  margin: 2rem;
+}
+
+.texto {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.lineaDerecha {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.palabraBike {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.textoBike {
+  padding-right: 0.4rem;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+/* SECCIÓN PRESENTACIÓN FOOD */
+
+.fotoPresentacionFood img {
+  width: 100%;
+}
+
+.tituloInterno {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.explore {
+  font-weight: 900;
+  font-style: bold;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contenedorExplore {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.lineaDerechaSinContenedor {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.lineaIzquierdaSinContenedor {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.linkInterno {
+  text-decoration: none;
+  color: black;
+}
+
+/* SECCIÓN FOOD */
+
+.iconoSlider img {
+  width: 15%;
+}
+
+.iconoSlider {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.texto1 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.parrafo {
+  margin-bottom: 0.7rem;
+}
+
+.iconoTriangulo img {
+  width: 50%;
+  margin: 0;
+}
+
+.iconoTriangulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.linkFood {
+  display: flex;
+  justify-content: center;
+}
+
+/* MAP */
+.tituloMap {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 1.7rem;
+  padding-top: 1rem;
+}
+
+.mapa img {
+  width: 100%;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.textoMapa {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* -------ARRANCA EL RESPONSIVE-------- */
+
+@media only screen and (min-width: 768px){
+
+  .in {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .lineaDerecha {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .lineaIzquierdaSinContenedor {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+  }
+
+.titulo {
+  font-size: 3rem;
+}
+
+.palabraBike {
+  font-size: 5rem;
+}
+
+.palabraIn {
+  font-size: 4rem;
+}
+
+.tresPM {
+  font-size: 4rem;
+}
+
+.tituloInterno {
+  font-size: 5rem;
+}
+
+.tituloMap {
+  font-size: 3rem;
+}
+
+}
