@@ -25,7 +25,6 @@ const Operations = () => {
         <p className='parrafo'>Lavandería certificada y de bajo impacto</p>
         <p className='parrafo'>Productos de limpieza de bajo impacto</p>
         <p className='parrafo'>Amenidades eco-friendly</p>
-        <p className='parrafo'>Eco-friendly amenities</p>
         <p className='parrafo'>Uso limitado de papelería</p>
         <p className='parrafo'>Uso de servidores eco-certificados para el hosting</p>
     </div>
