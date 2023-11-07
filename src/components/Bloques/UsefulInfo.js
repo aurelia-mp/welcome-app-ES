@@ -84,7 +84,16 @@ const UsefulInfo = () => {
           </div>
       </div>
 
+      <div className='lineaDerecha'>
+          <img src="/icons/line.png" alt="linea" />
+      </div>
 
+      <div className='bloquesInternos'>
+        <img src="/icons/valuables.png" alt="valuables" />
+          <div className='texto'>
+            <p>por favor, utilice la caja de seguridad</p>
+          </div>
+      </div>
       </div>
 
       <img className='imagenHome' src="/fotos/1604 - Guest Bikes - Garden - DSC_0299 - 1000px.jpg" alt="bicletas para huéspedes" />
