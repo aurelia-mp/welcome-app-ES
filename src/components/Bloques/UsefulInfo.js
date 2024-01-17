@@ -94,6 +94,19 @@ const UsefulInfo = () => {
             <p>por favor, utilice la caja de seguridad</p>
           </div>
       </div>
+
+      <div>
+          <img src="/icons/line.png" alt="linea" />
+      </div>
+
+      <div className='bloquesInternos'>
+        <img src="/icons/gym.png" alt="valuables" />
+          <div className='texto'>
+            <p>gym - todos los días</p>
+            <p>de 9AM a 10PM</p>
+          </div>
+      </div>
+    
       </div>
 
       <img className='imagenHome' src="/fotos/1604 - Guest Bikes - Garden - DSC_0299 - 1000px.jpg" alt="bicletas para huéspedes" />
@@ -103,6 +116,11 @@ const UsefulInfo = () => {
           <p className='textoBike'>Visite Buenos Aires con nuestras bicicletas de cortesía. Disponibles en Recepción, por orden de llegada. </p>
       </div>
 
+      <img className='imagenHome' src="/fotos/gym.jpg" alt="" />   
+      <div className='in'>
+          <p className='palabraBike'>GYM</p>
+          <p className='textoBike'>¿Eres un fanático del ejercicio? No te detengas nunca. ¡Subí y comenzá a sudar! </p>
+      </div>
 
     </div>
     </>
