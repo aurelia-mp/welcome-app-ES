@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import './App.css';
 import { SessionContextProvider } from './context/sessionContext';
 import { useMediaQuery } from 'react-responsive'
+import { Analytics } from '@vercel/analytics/react';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <p><a href="https://www.palosantohotel.com">Ir a nuestro sitio web</a></p>
         </div>
         }
+        <Analytics/>
       </> 
   );
 }
