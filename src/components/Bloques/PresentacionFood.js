@@ -5,7 +5,7 @@ const PresentacionFood = () => {
   return (
     <>
     <div className='fotoPresentacionFood'>
-    <img src="/fotos/Psanto13-3000px.jpg" alt="flechaDerecha" />
+    <img src="/fotos/2507-Desayuno-Jardin-Invierno-IMG_2237.jpg" alt="flechaDerecha" />
     </div>
 
     <Link to="/food-drinks" className='linkInterno'>

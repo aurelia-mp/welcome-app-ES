@@ -5,7 +5,7 @@ const Operations = () => {
   return (
     <>
     <div className='fotoPresentacionFood'>
-        <img src="/fotos/operations.jpg" alt="flechaDerecha" />
+        <img src="/fotos/IMG_9951-LimpiezaMesa-1000px.jpg" alt="flechaDerecha" />
     </div>
 
     <div className='iconoTriangulo'>

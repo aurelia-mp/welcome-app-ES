@@ -12,7 +12,7 @@ const Home = () => {
     if(esPrimerIngreso === true){
       setTimeout(()=>{
         ingresar()
-      }, 3000)
+      }, 1500)
     }
   })
 

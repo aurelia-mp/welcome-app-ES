@@ -5,7 +5,7 @@ const FoodHome = () => {
   return (
     <>
     <div className='fotoPresentacionFood'>
-        <img src="/fotos/desayuno.jpg" alt="flechaDerecha" />
+        <img src="/fotos/2507-Desayuno-Buffet-7-IMG_2250.jpg" alt="flechaDerecha" />
     </div>
 
     <div className='iconoTriangulo'>

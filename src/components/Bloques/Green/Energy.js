@@ -5,7 +5,7 @@ const Energy = () => {
   return (
     <>
     <div className='fotoPresentacionFood'>
-        <img src="/fotos/energy.jpeg" alt="flechaDerecha" />
+        <img src="/fotos/Pasillos1-IMG_1948-50-1000px.jpg" alt="flechaDerecha" />
     </div>
 
     <div className='iconoTriangulo'>

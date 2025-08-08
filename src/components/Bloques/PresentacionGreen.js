@@ -5,7 +5,7 @@ const PresentacionGreen = () => {
   return (
     <>
     <div className='fotoPresentacionFood'>
-    <img src="/fotos/Psanto13-3000px.jpg" alt="flechaDerecha" />
+    <img src="/fotos/FachadaP-IMG_2480-205-1000px.jpg" alt="flechaDerecha" />
     </div>
 
     <Link to="/green" className='linkInterno'>
